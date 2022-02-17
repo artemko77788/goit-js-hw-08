@@ -25,8 +25,6 @@ function dataFromlocalStorage() {
   const saveData = localStorage.getItem("feedback-form-state");
 
   if (saveData) {
-    //      //  если да, сохранни поченные значения из локалстореджа
-    //     console.log(saveMessage)
     const parseSave = JSON.parse(saveData);
     const keys = Object.keys(parseSave);
 
